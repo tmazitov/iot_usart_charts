@@ -25,8 +25,8 @@
 <script>
 
 import { onMounted, reactive, } from 'vue';
-import connection from '.../actions/connection.js';
-import Stack from '.../actions/stack.js';
+import connection from '../actions/connection.js';
+import Stack from '../actions/stack.js';
 
 import { LineChart } from 'vue-chart-3';
 import { Chart, registerables } from "chart.js";
